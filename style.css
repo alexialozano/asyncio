@@ -1,0 +1,379 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --color1:#D89584;
+    --color2: whitesmoke;
+    --color3:#F4F4F4;
+
+}
+body{
+    margin:0;
+    font-family: Arial;
+    line-height: 1.5;
+}
+/*-------------------- FRAME--------------*/
+iframe{
+    width: 100%;
+    border:none;
+    height: 350px;
+}
+
+
+/*-------------------- PAGES 1--------------*/
+/*--COVER --*/
+div.cover{
+    background:url(cover_overlay.png) no-repeat center/100% 100%,url(cover.jpg) no-repeat center/cover;
+    height: 360px ;
+    position:relative;
+}
+img.cover-profil{
+    height:100px; 
+    position: relative;
+    left:50%;
+    margin-left: -180px;
+    margin-top:50px;
+}
+h1{
+    color :var(--color2);
+    text-align: center;
+    font-size: 42px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+div.cover p{
+    color:lightgray;
+    text-align: center;
+    margin-top:8px;
+    font-size: 16px;
+}
+div.cover-contact{
+    /*background-color: lightpink;*/
+    position: absolute;
+    top:20px;
+    left: 10px;
+    border-left:4px solid var(--color1);
+    padding-left: 8px;
+}
+div.cover-contact p{
+   text-align: left;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+div.cover-contact p:first-child {
+    margin-bottom: 14px;
+}
+div.cover-contact *{
+  color:var(--color2);
+  font-size: 14px;
+}
+a.bouton-contact{
+    display: inline-block;
+    color:var(--color1);
+    font-size: 14px;
+    background-color:#313030a2;
+    text-align: centre;
+    border:2px solid var(--color1);
+    padding : 8px 20px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+a.bouton-contact:hover {
+    color: var(--color2);
+    font-size: 15px;
+    background-color:#141414a2;
+    border:2px solid var(--color2);
+}
+
+
+/*---SECTIONS--*/
+.section{
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 30px;
+padding-bottom: 30px;
+overflow: auto;
+}
+/*-- SECTION GRISE 1*/
+div.section-grise1 {
+    background: url(triangle2white.svg) no-repeat center bottom -1px/100%;
+    background-color: var(--color3);
+    padding-bottom:70px; 
+}
+div.trait{
+    position:relative;
+    border-top: 1px solid #979797;
+    width: 150px;
+    left:50%;
+    margin-left:-100px;
+}
+div.section-grise1 p{
+    text-align: center;
+    font-size: 22px;
+    color:#656565;
+    max-width:450px ;
+    margin-left: auto;
+    margin-right: auto;  
+}
+/*-- SECTION GRISE 2*/
+div.section-grise2 {
+    background: url(triangle1white.svg) no-repeat center top/100%;
+    background-color: var(--color3);
+    padding-top:80px; 
+   
+}
+h2{
+    text-align: center;
+    font-size: 34px;
+}
+
+/*-- Les colonnes*/
+img.col-contenu{
+    width:40%;
+}
+div.col-contenu{
+    width:60%;
+    padding-left: 16px;
+}
+.float-right{
+    float:right;
+}
+/*-- paragraphe avec bord*/
+div.textebord{
+    border-left: 4px solid var(--color1) ;
+    padding-left: 8px;
+    height: 50px;
+    display:inline-block;
+}
+
+div.textebord p{
+    margin-top: 0;
+}
+
+/*-- portfolio*/
+div.barre-vertical {
+    height: 50px;
+    width: 4px;
+    background-color: var(--color1);
+    margin-right: 8px;
+}
+.col-portfolio{
+    width: 47%;
+
+}
+p.dersection{
+    text-align: center;
+    font-size: 22px;
+   
+}
+table.dersection{
+    width: 100%;
+    display:inline-block;
+    width: 65%;
+    
+}
+div.frame{
+    margin: 30px 50px;
+    padding:20px 30px;
+    background-color: val(--color2);
+    box-shadow: 0px 0px 8px 8px rgb(131, 129, 129,1); 
+}
+p.frame-title{
+    font-size: 30px;
+    margin-top:5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+div.textebord-frame{
+    border-left: 4px solid var(--color1) ;
+    padding-left: 8px;
+    height: 50px;
+    margin-left: 20px;
+    display:inline-block;
+}
+img.frame-img{
+    width: 100px;
+}
+td.frame{
+    padding: 0px;
+}
+
+/*-------------------- PAGES 2--------------*/
+/*------HEADER------*/
+
+div.portfolio-header{
+    height: 90px;
+    background-color: black;
+    background:url(header.jpg) no-repeat center/cover;
+    height: 90px ;
+    position:relative;
+}
+
+h1.portfolio-header{
+    color :var(--color2);
+    font-size: 26px;
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+    margin-top: 4px;
+    padding-left:8px;
+
+}
+.portfolio-portfolio{
+    text-align: center;
+}
+h2.portfolio-portfolio{
+    font-size: 46px;
+    font-weight: bold;
+    color: black;
+    margin-bottom:0;
+    margin-top: 0;
+    line-height: 1;
+    margin-top: 10px;
+}
+h3.portfolio-portfolio{
+    font-size: 26px;
+    font-weight: normal;
+    margin-top: 0; 
+    margin-bottom: 0;
+    
+}
+a.portfolio-portfolio {
+    color :var(--color1);
+}
+
+.portfolio-section-blanche{
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+}
+p.portfolio-section-blanche{
+font-weight: bolder;
+margin-left: 20px;
+}
+div.portfolio-section-blanche{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+}
+a.portfolio-section-blanche{
+    display: inline-block;
+    text-align: center;
+}
+img.portfolio-section-blanche{
+    width: 70%;
+    max-width:475px ;
+}
+a.bouton-contact-portfolio{
+    display: inline-block;
+    color:var(--color1);
+    font-size: 14px;
+    background-color:#313030a2;
+    text-align: centre;
+    border:2px solid var(--color1);
+    padding : 8px 20px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+div.trait-fin{
+    position:relative;
+    border-top: none;
+    width: 150px;
+    left:50%;
+    margin-left:-80px;
+}
+/*----------- RESPONSIVE DESIGN : mobile--------------*/
+@media only screen and (max-width: 767px) {
+    img.cover-profil{
+        height:90px; 
+        margin-top:75px;
+    }
+    h1{
+        font-size: 38px;
+        margin-top: 5px;
+    }
+    div.cover p{
+        margin-top:2px;
+        font-size: 13px;
+    }
+    /*---SECTIONS--*/
+.section{
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    /*-- SECTION GRISE 1*/
+    div.section-grise1 {
+        padding-bottom:40px; 
+    }
+    h2{
+        font-size: 30px;
+    }
+    /*--section blanche--*/
+    /*-- Les colonnes*/
+
+    img.col-contenu{
+        width:100%;
+        margin-bottom: 20px;
+    }
+
+    .float-right{
+        float:center;
+    }
+    /*------portfolio-----*/
+    .col-portfolio{
+        width: 100%;
+    }
+    p.dersection{
+        text-align: center;
+        font-size: 24px;
+       
+    }
+    div.col-contenu{
+        width:100%;
+        padding-left: 0px;
+    }
+    h1.portfolio-header{
+        font-size: 20px;
+        margin-top: 0;
+    
+    }
+    img.portfolio-section-blanche{
+        width: 100%;
+    }
+    img.cover-profil{
+        margin-left: -160px;
+    
+    }
+    h2{
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    div.trait-fin{
+        border-top: 1px solid #979797;
+    }
+/*------FRAME------*/
+
+    div.frame{
+        margin: 0px 0px;
+        padding:0px 0px;
+        box-shadow:none;
+    
+    }
+    p.frame-title{
+        font-size: 25px;
+        margin-top:5px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    img.frame-img{
+        width: 70px;
+        position: relative;
+    }
+    td.frame{
+       padding :0px;
+    }
+
+
+
+}
